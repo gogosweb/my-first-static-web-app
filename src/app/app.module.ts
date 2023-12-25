@@ -13,6 +13,7 @@ const routes: Routes = [
   // more routes here
 ];
 
+const baseHrefUrl = '/process-and-meetings/the-paris-agreement/cooperative-approaches/Article-6-8/nma-platform';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ const routes: Routes = [
     BrowserModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [{provide: APP_BASE_HREF, useValue: '/process-and-meetings/the-paris-agreement/cooperative-approaches/Article-6-8/nma-platform'}],
+  providers: [{provide: APP_BASE_HREF, useValue: baseHrefUrl}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
