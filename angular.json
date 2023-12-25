@@ -33,6 +33,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/test/app/"
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
