@@ -16,7 +16,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-basic/process-and-meetings/the-paris-agreement/cooperative-implementation/Article-6-8/nma-platform",
+            "outputPath": "dist/angular-basic",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
