@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
+import {APP_BASE_HREF} from '@angular/common';
 
 const routes: Routes = [
   { path: 'contact', component: ContactComponent },
@@ -23,7 +24,7 @@ const routes: Routes = [
     BrowserModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [],
+  providers: [{provide: APP_BASE_HREF, useValue: '/process-and-meetings/the-paris-agreement/cooperative-approaches/Article-6-8/nma-platform'}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
