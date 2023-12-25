@@ -33,7 +33,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/test/app/"
+              "baseHref": "/process-and-meetings/the-paris-agreement/cooperative-approaches/Article-6-8/nma-platform/",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
