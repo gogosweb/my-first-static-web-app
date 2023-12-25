@@ -4,16 +4,13 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build-baseHref": "npm run build-azure",
     "build": "ng build --base-href=/process-and-meetings/the-paris-agreement/cooperative-approaches/Article-6-8/nma-platform/ --configuration production",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "swa:start": "swa start app",
     "swa:login": "swa deploy app",
-    "swa:deploy": "swa login",
-    "build-azure": "ng build --deploy-url /process-and-meetings/the-paris-agreement/cooperative-implementation/Article-6-8/nma-platform/ && npm run postbuild",
-    "postbuild": "copy \"dist\\angular-basic\\process-and-meetings/the-paris-agreement\\cooperative-implementation/Article-6-8\\nma-platform\\index.html\" \"dist\\angular-basic\\index.html\""
+    "swa:deploy": "swa login"
   },
   "private": true,
   "dependencies": {
