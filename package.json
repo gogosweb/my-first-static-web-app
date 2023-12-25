@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "build-baseHref": "ng build --base-href=/process-and-meetings/the-paris-agreement/cooperative-approaches/Article-6-8/nma-platform/ --configuration production",
+    "build-No-baseHref": "ng build",
+    "build": "ng build --base-href=/process-and-meetings/the-paris-agreement/cooperative-approaches/Article-6-8/nma-platform/ --configuration production",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
