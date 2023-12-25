@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import {APP_BASE_HREF} from '@angular/common';
+import { environment } from '../environments/environment';
 
 const routes: Routes = [
   { path: 'contact', component: ContactComponent },
@@ -13,7 +14,6 @@ const routes: Routes = [
   // more routes here
 ];
 
-const baseHrefUrl = '/process-and-meetings/the-paris-agreement/cooperative-approaches/Article-6-8/nma-platform';
 
 @NgModule({
   declarations: [
@@ -25,7 +25,7 @@ const baseHrefUrl = '/process-and-meetings/the-paris-agreement/cooperative-appro
     BrowserModule,
     RouterModule.forRoot(routes)
   ],
-  providers: [{provide: APP_BASE_HREF, useValue: baseHrefUrl}],
+  providers: [{provide: APP_BASE_HREF, useValue: environment.AppBaseHref}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  AppBaseHref: '/process-and-meetings/the-paris-agreement/cooperative-approaches/Article-6-8/nma-platform'
 };
 
 /*
